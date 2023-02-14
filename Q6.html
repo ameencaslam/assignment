@@ -1,0 +1,58 @@
+<!-- 6. Create a webpage for student registration form(include address, gender(radio button),qualification(select box),languages known(checkbox)) -->
+
+<html>
+    <body>
+        <h1>Student Registration Form</h1><br>
+        <form>
+           
+            <p>
+                <label for="name"> Full Name: </label>
+                <input type="text" name="name">
+            </p>
+           
+            <p>
+                <label for="address">Address: </label>
+                <textarea name="address"></textarea>
+            </p>
+           
+            <p>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="other">
+                <label for="other">Other</label>
+            </p>
+           
+            <p>
+                <label for="qualification">Qualification</label>
+                <select name="qualification">
+                    <option value="select">---select---</option>
+                    <option value="SSLC">SSLC</option>
+                    <option value="+2">+2</option>
+                    <option value="UG">UG</option>
+                    <option value="PG">PG</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="lang">Languages Known: </label>
+                <input type="checkbox" name="lang" value="english">
+                <label for="english">English</label>
+                <input type="checkbox" name="lang" value="malayalam">
+                <label for="malayalam">Malayalam</label>
+                <input type="checkbox" name="lang" value="hindi">
+                <label for="hindi">Hindi</label>
+                <input type="checkbox" name="lang" value="tamil">
+                <label for="tamil">Tamil</label>
+            </p>
+
+            <p>
+                <input type="submit" name="submit" value="Submit">
+                <input type="reset" name="reset" value="Resest">
+            </p>
+
+        </form>
+    </body>
+</html>

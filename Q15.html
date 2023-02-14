@@ -1,0 +1,57 @@
+<!-- 15. Design a webpage using internal style sheet for setting styles to heading, body and table -->
+
+
+<html>
+    <head>
+        <style>
+            body{
+                background-color:chartreuse;
+            }
+            h1{
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+                font-family: Sofia, monospace;
+                font-size: 60;
+                color: blue;
+            }
+            table{
+                border: 2px solid;
+                border-color: blue;
+            }
+            .tbl{
+                margin: auto;
+                align-content: center;
+                width: fit-content;
+            }
+            td{
+                border: 1px solid blue;
+                text-align: center;
+                height: 50px;
+                width: 100px;
+                vertical-align: center;
+                color: chartreuse;
+                background-color: blue;
+            }
+            td:hover{
+                background-color: aqua;
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <div class="tbl">
+        <table>
+            <tr>
+                <td>#1</td>
+                <td>#2</td>
+            </tr>
+            <tr>
+                <td>#3</td>
+                <td>#4</td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>
